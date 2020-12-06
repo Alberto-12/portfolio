@@ -113,13 +113,21 @@
   }
   
   /* Page body */
-  .page-body {
+  /* .page-body {
     margin: 0 10px;
     min-height: 75%;
   }
   .page-body__item {
     text-align: center;
-  }
+  } */
+  .page-body {
+	max-width: 700px;
+	margin: auto;
+}
+.page-body-item {
+	margin-left: auto;
+	margin-right: auto;
+}
   
   /* index.html profile styles  */
   .profile {
